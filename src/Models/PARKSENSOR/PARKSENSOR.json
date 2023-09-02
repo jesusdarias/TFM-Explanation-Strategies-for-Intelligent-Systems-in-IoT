@@ -1,0 +1,26 @@
+{
+  "alias": "PARKSENSOR",
+  "isPublic": true,
+  "backend": "http://www.w3id.org/iSeeOnto/explainer#TensorFlow2",
+  "model_task": "http://www.w3id.org/iSeeOnto/aimodel#Binary_Classification",
+  "dataset_type": "http://www.w3id.org/iSeeOnto/explainer#image",
+  "attributes": {
+    "target_names": [ "label" ],
+    "features": {
+      "image": {
+        "data_type": "image",
+        "shape": [ 382, 382, 3 ],
+        "shape_raw": [ 382, 382, 3 ],
+        "min": 0,
+        "max": 1,
+        "min_raw": 0,
+        "max_raw": 255
+      },
+      "label": {
+        "data_type": "categorical",
+        "values": [ 0, 1 ],
+        "values_raw": [ "OK", "NOK" ]
+      }
+    }
+  }
+}

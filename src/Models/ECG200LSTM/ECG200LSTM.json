@@ -1,0 +1,21 @@
+{
+  "alias": "ECG200 classifier",
+  "isPublic": true,
+  "attributes": {
+    "features": {
+      "ECG Signal": {
+        "data_type": "numerical",
+        "shape": [ 96 ]
+      },
+      "Class": {
+        "data_type": "categorical",
+        "values": [ 0, 1 ],
+        "values_raw": [ "Normal Heartbeat", "Myocardial Infarction" ]
+      }
+    },
+    "target_names": [ "Class" ]
+  },
+  "backend": "http://www.w3id.org/iSeeOnto/explainer#Sklearn",
+  "dataset_type": "http://www.w3id.org/iSeeOnto/explainer#time_series",
+  "model_task": "http://www.w3id.org/iSeeOnto/aimodel#Binary_Classification"
+}
