@@ -48,7 +48,7 @@
           "firstChild": {
             "Id": "e59b2313-bd7d-42ba-a06c-38f26c7c5eba",
             "Next": {
-              "Id": "97fcbfd1-1d5f-4d63-8412-21f0a8a654a3",
+              "Id": "880aea97-c224-4bcf-8eae-70406fcc2bad",
               "Next": {
                 "Id": "ea6bae33-6b49-41bb-8000-c03ae69efde9",
                 "Next": {
@@ -74,7 +74,7 @@
             "Next": {
               "Id": "3379016a-ecc3-4174-81b0-162cbb56ba74",
               "Next": {
-                "Id": "28af2c50-af66-4383-899b-059483fa584f",
+                "Id": "85fb33a5-c339-4b2b-8a69-83642eef3131",
                 "Next": {
                   "Id": "f7d0a3c0-0727-487d-9712-478b527fc93c",
                   "Next": {
@@ -96,13 +96,13 @@
           "description": "",
           "properties": {},
           "display": {
-            "x": 744,
-            "y": 240
+            "x": 732,
+            "y": 204
           },
           "firstChild": {
-            "Id": "00cd15a5-10b9-4fa4-8030-5863c63e2639",
+            "Id": "6d935cc6-f312-4652-a4e6-631c0e531094",
             "Next": {
-              "Id": "f1e8fc26-ddd6-477e-aab4-e4c9f0c5a491",
+              "Id": "00cd15a5-10b9-4fa4-8030-5863c63e2639",
               "Next": {
                 "Id": "2f59ea1b-a36d-419a-9f96-5c109814a4e2",
                 "Next": null
@@ -117,8 +117,8 @@
           "description": "",
           "properties": {},
           "display": {
-            "x": -840,
-            "y": 288
+            "x": -900,
+            "y": 300
           },
           "params": {
             "Question": "\"What is the recall of the system for defective sensors?"
@@ -131,8 +131,8 @@
           "description": "",
           "properties": {},
           "display": {
-            "x": -108,
-            "y": 288
+            "x": -144,
+            "y": 312
           },
           "params": {
             "Question": "What region of the sensor has been identified by the system as defective?"
@@ -145,8 +145,8 @@
           "description": "",
           "properties": {},
           "display": {
-            "x": 600,
-            "y": 300
+            "x": 540,
+            "y": 312
           },
           "params": {
             "Question": "What images would get a similar/different outcome to this one?"
@@ -225,7 +225,7 @@
           "description": "",
           "properties": {},
           "display": {
-            "x": 576,
+            "x": 600,
             "y": 444
           }
         },
@@ -236,7 +236,7 @@
           "description": "",
           "properties": {},
           "display": {
-            "x": 900,
+            "x": 876,
             "y": 444
           }
         },
@@ -261,11 +261,67 @@
             "x": 228,
             "y": 564
           }
+        },
+        "880aea97-c224-4bcf-8eae-70406fcc2bad": {
+          "id": "880aea97-c224-4bcf-8eae-70406fcc2bad",
+          "Concept": "Sequence",
+          "Instance": "Sequence",
+          "description": "",
+          "properties": {},
+          "display": {
+            "x": -900,
+            "y": 204
+          },
+          "firstChild": {
+            "Id": "97fcbfd1-1d5f-4d63-8412-21f0a8a654a3",
+            "Next": null
+          }
+        },
+        "85fb33a5-c339-4b2b-8a69-83642eef3131": {
+          "id": "85fb33a5-c339-4b2b-8a69-83642eef3131",
+          "Concept": "Sequence",
+          "Instance": "Sequence",
+          "description": "",
+          "properties": {},
+          "display": {
+            "x": -144,
+            "y": 216
+          },
+          "firstChild": {
+            "Id": "28af2c50-af66-4383-899b-059483fa584f",
+            "Next": null
+          }
+        },
+        "acff1b94-ccee-48fd-9bd9-f9826476903b": {
+          "id": "acff1b94-ccee-48fd-9bd9-f9826476903b",
+          "Concept": "Sequence",
+          "Instance": "Sequence",
+          "description": "",
+          "properties": {},
+          "display": {
+            "x": -144,
+            "y": 216
+          }
+        },
+        "6d935cc6-f312-4652-a4e6-631c0e531094": {
+          "id": "6d935cc6-f312-4652-a4e6-631c0e531094",
+          "Concept": "Sequence",
+          "Instance": "Sequence",
+          "description": "",
+          "properties": {},
+          "display": {
+            "x": 540,
+            "y": 228
+          },
+          "firstChild": {
+            "Id": "f1e8fc26-ddd6-477e-aab4-e4c9f0c5a491",
+            "Next": null
+          }
         }
       },
       "display": {
-        "camera_x": 1061.5,
-        "camera_y": 501,
+        "camera_x": 1103.5,
+        "camera_y": 488,
         "camera_z": 0.75,
         "x": 60,
         "y": -36
